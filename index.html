@@ -10,6 +10,7 @@
 <nav>
     <div class="container">
         <h1>Freelancing Platform</h1>
+        <img src="WSD_LAB_1_nav_img.svg" alt="">
         <div class="menu">
             <a href="#" class="active-true">Home</a>
             <a href="#">About</a>
@@ -27,80 +28,134 @@
 <!--!   Navbar   -->
 
 <!--Form & Table-->
+<div class="main-cont">
+    <div class="form-container">
+        <div class="form-img">
+            <h2>Join The Greatest Freelancing Platform</h2>
+            <br><br>
+            <img src="WSD_LAB_Form_Image.svg" alt="form-image">
+        </div>
 
-<div class="form-container">
-    <div class="form-img">
-        <img src="WSD_LAB_Form_Image.svg" alt="form-image">
-    </div>
-
-    <div class="reg-form">
-        <h2>Register</h2>
-        <form action="">
-            <table>
-                <tr>
-                    <td>
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname">
-                    </td>
-                    <td>
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h4>Gender</h4>
-                        <input type="radio" name="gender" id="male" value="Male">
-                        <label for="male">Male</label>
-                        <input type="radio" name="gender" id="female" value="Female">
-                        <label for="male">Female</label>
-                        <input type="radio" name="gender" id="non-bin" value="NB">
-                        <label for="male">Non-Binary</label>
-                    </td>
-                    <td>
-                        <label for="phone">Phone Number</label>
-                        <input type="number" name="phone" id="phone">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="pass">Password</label>
-                        <input type="password" name="pass" id="pass">
-                    </td>
-                    <td>
-                        <label for="conpass">Confirm Password</label>
-                        <input type="password" name="conpass" id="conpass">
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <label for="user-type">What are you?</label>
-                        <select name="user-type" id="user-type">
-                            <option value="Business">Business</option>
-                            <option value="Freelancer">Freelancer</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button>Register</button>
-                    </td>
-                    <td>
-                        <span><p style="display: inline;">Already a user?</p>&nbsp;<a href="#">Login Here!</a></span>
-                    </td>
-                </tr>
-            </table>
-        </form>
+        <div class="reg-form">
+            <h2>Register</h2>
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="input-div">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-div">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname">
+                            </div>
+                        </td>
+                        <td rowspan="5" style="text-align: center"><strong style="text-transform: uppercase; letter-spacing: 10px">Your Journey Starts Here</strong></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>Gender</h4>
+                            <div class="gender-radio">
+                                <input type="radio" name="gender" id="male" value="Male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="female" value="Female">
+                                <label for="male">Female</label>
+                                <input type="radio" name="gender" id="non-bin" value="NB">
+                                <label for="male">Non-Binary</label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-div">
+                                <label for="phone">Phone Number</label>
+                                <input type="number" name="phone" id="phone">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="input-div">
+                                <label for="pass">Password</label>
+                                <input type="password" name="pass" id="pass">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-div">
+                                <label for="conpass">Confirm Password</label>
+                                <input type="password" name="conpass" id="conpass">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="input-div">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="input-div">
+                                <label for="user-type">What are you?</label>
+                                <select name="user-type" id="user-type">
+                                    <option value="Business">Business</option>
+                                    <option value="Freelancer">Freelancer</option>
+                                </select>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-div">
+                                <label for="profile-pic">Upload your profile photo</label>
+                                <input type="file" name="profile-pic" id="profile-pic">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button>Register</button>
+                        </td>
+                        <td>
+                            <span><p style="display: inline;">Already a user?</p>&nbsp;<a href="#">Login Here!</a></span>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </div>
 </div>
-
 <!--!Form & Table-->
+<!--Footer-->
+<footer class="footer">
+    <div class="foot-content">
+        <div class="brand-cont">
+            <h1>Freelancing Platform</h1>
+            <img src="WSD_LAB_1_foot_image.svg" alt="brand-image">
+        </div>
+        <div class="oList">
+            <h2>Companies Working With Us!</h2>
+            <ol type="1">
+                <li>Microsoft</li>
+                <li>Amazon</li>
+                <li>Meta</li>
+                <li>Apple</li>
+            </ol>
+        </div>
+
+        <div class="uList">
+            <h2>Various Categories</h2>
+            <ul>
+                <li>Graphic Designing</li>
+                <li>Website Development</li>
+                <li>Video Editing</li>
+                <li>App Development</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!--Footer End-->
 <script src="scripts.js"></script>
 </body>
 </html>
